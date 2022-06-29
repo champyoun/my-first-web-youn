@@ -1,0 +1,106 @@
+.tb-head>tr>td {
+   border: 2px solid rgb(41, 224, 56);
+   font-size: 20px;
+   font-weight: bold;
+   color: rgb(132, 0, 255);
+}
+.tb-body>tr>td {
+    border: 1px solid rgb(102, 74, 226);
+    color: blue;
+ }
+ .li {
+    font-size: 20px;
+    color: rgb(82, 64, 240);
+    font-weight: bold;
+ }
+ .th-th>tr>th {
+   border-collapse: collapse;
+   text-align: center;
+   width : 150px;
+   height: 30px;
+}
+th, td {
+   padding: 20px;
+   color: rgb(13, 13, 105);
+}
+th {
+   text-align: center;
+}
+tr:hover {
+   background-color: greenyellow;
+}
+/*.search {
+   display: flex;
+	justify-content: center;
+   position: relative;
+   width: 300px;
+}*/
+.search {
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   top: 100px;
+}
+
+ input {
+   border: 2px solid rgb(110, 109, 109);
+   border-radius: 8px;
+   padding: 10px 14px;
+   font-size: 14px;
+   background-color: rgb(199, 209, 226);
+ }
+ 
+ img {
+   width: 20px;
+   padding: 5px;
+
+
+ }
+ .clearfix {
+   position: relative;
+   display: flex;
+   justify-content: end;
+   margin-right: 20px;
+   margin-top: 50px;
+ }
+ #video_area {
+   padding: 0;
+   width: 100vw;
+   height: 100vh;
+   overflow: hidden;
+   position: absolute;
+ }
+ #background_video {
+     z-index: -1;
+     width: 100vw;
+     position: absolute;
+ }
+ hr {
+   margin: 50px -10px 50px -10px;
+   border: none;
+   border: 5px double orange;
+ }
+ button {
+   margin: 20px;
+}
+.w-btn {
+   position: relative;
+   border: none;
+   display: inline-block;
+   padding: 10px 20px;
+   border-radius: 15px;
+   font-family: "paybooc-Light", sans-serif;
+   box-shadow: 0 15px 35px rgba(0, 0, 0, 0.2);
+   text-decoration: none;
+   font-weight: 600;
+   transition: 0.25s;
+}
+.w-btn-blue {
+   background-color: #6aafe6;
+   color: #425663;
+}
+.w-btn:hover {
+   letter-spacing: 2px;
+   transform: scale(1.2);
+   cursor: pointer;
+}

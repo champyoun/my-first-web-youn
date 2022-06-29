@@ -1,0 +1,533 @@
+.champ {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    list-style: none;
+    font-size: 12px;
+    padding: 5px 20px;
+}
+.champ > a {
+    text-decoration: none;
+    padding: 0 10px;
+}
+.champ > i {
+    font-size: 13px;
+    background-color: rgb(248, 247, 245);
+}
+.champ1 {
+    color: rgb(207, 203, 203);
+    font-weight: bolder;
+}
+.champ2 {
+    color: rgb(207, 203, 203);
+    font-weight: bolder;
+}
+* {
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+    height: 100%;
+}
+header {
+	display: flex;
+    margin: 10px 0 0 60px;
+} 
+
+.img_logo {
+	margin-right: 17px;
+	max-width: 160px;    
+	margin-top: 20px;
+}
+
+.search_box {
+	width: 550px;
+	height: 55px;
+	border: 2px solid #03cf5d;
+	display: flex;
+	margin-top: 20px;
+}
+
+.search_box input {
+	width: 90%;
+	height: 46px;
+	padding-left: 12px;
+	padding-right: 12px;
+	border: none;
+	outline: none;
+	font-size: 18px;
+	
+}
+
+.search_box button {
+	width: 10%;
+	height: 51px;
+	margin: 0;
+	padding: 0;
+	border: none;
+	background: #03cf5d;
+    color: white;
+}
+
+.search_box > i {
+	color: rgb(7, 177, 7);
+	font-size: 15px;
+	display: flex;
+    align-items: center;
+    padding: 0 10px;
+}
+.search_box > button > i {
+    font-size: 24px;
+}
+
+#keyboard {
+	color: lightgray;
+	font-size: 20px;
+}
+.champ_3 {
+    width: 60px;
+    height: 55px;
+    margin-top: 15px;
+    margin-right: 5px;
+}
+.champ_2 {
+    margin-top: 45px;
+}
+hr {
+    background-color: #eaeef1;
+}
+.champyoun1 {
+    display: flex;
+}
+.mail_1 {
+    display: flex;
+    margin: 0;
+    padding-left: 20px;
+    list-style: none;
+}
+.mail_2 {
+    display: flex;
+    margin: 0;
+    padding-left: 0;
+    list-style: none;
+
+}
+.mail_1 li {
+    padding: 7px;
+    font-weight: bolder;
+}
+.mail_2 li {
+    padding: 7px;
+    font-weight: bolder;
+}
+.champyoun1 > .mail_1 > li >a {
+    text-decoration: none;
+    color: #03cf5d;
+}
+.champyoun1 > .mail_2 > li >a {
+    text-decoration: none;
+    color: black;
+}
+.mail18 {
+    font-size: small;
+}
+.champyoun2 {
+    display:flex;
+    position:absolute ;
+    right: 24px;
+    top: 180px;
+    
+}
+.champyoun2 div {
+    padding: 0 5px;
+}
+.cloud1 {
+    color: lightgray;
+}
+.cloud2 {
+    font-weight: bolder;
+}
+.cloud3, .cloud4 {
+    font-size:small ;
+}
+.champyoun3 > img {
+    width: 810px;
+    margin: 10px 26px;
+}
+.champyoun3_1 {
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid #dae1e6;
+    background-color: #f5f9fc;
+    margin: 0 410px 0 25px;
+    font-size: small;
+    width: 810px;
+}
+.champ_4 {
+    display: flex;
+    list-style: none;
+    padding: 5px;
+}
+.champ_1 {
+    display: flex;
+    list-style: none;
+    padding: 5px;
+    font-weight: bolder;
+}
+.champyoun3_1> ul > li >a {
+    padding: 0 7px;
+    color: #000;
+}
+.champyoun3_1 > ul > .menu1 > a {
+    font-weight: bolder;
+}
+.champyoun3_1 > ul > .menu4 > a {
+    color: rgb(80, 104, 170);
+}
+.champyoun4 {
+    display: flex;
+}
+.champ_5 {
+    display: flex;
+    list-style: none;
+    padding-left: 22px;
+}
+.champ_6 {
+    display: flex;
+    list-style: none;
+    padding-left: 400px;
+}
+.champ_5 > li > a {
+    text-decoration: none;
+    padding: 5px;
+    color: #000;
+}
+.champ_6 > li > a {
+    padding: 7px;
+    color: rgb(173, 166, 166);
+}
+.ico4 {
+    font-size: small;
+}
+.ico2, .ico5 {
+    font-weight: bolder;
+}
+.champ_5 > .ico1 > a {
+    color: rgb(105, 105, 231);
+}
+.champ_6 > .ico7  > a {
+    color: rgb(105, 105, 231);
+}
+.champyoun5 {
+    width: 810px;
+    height: 270px;
+    margin-left: 24px;
+    border : 1px solid rgb(221, 220, 220);
+    border-collapse : collapse;
+}
+.champyoun5  tr > th:hover {
+    background-color: rgb(147, 147, 241);
+}
+.champyoun6 {
+    display: flex;
+    padding-top: 15px;
+}
+.champ_7 {
+    display: flex;
+    list-style: none;
+    padding-left: 20px;
+}
+.champ_8 {
+    display: flex;
+    list-style: none;
+    padding-left: 265px;
+}
+.champ_7 > li > a {
+    text-decoration: none;
+    padding: 5px;
+    color: rgb(133, 131, 131);
+}
+.champ_8 > li > a {
+    text-decoration: none;
+    padding: 5px;
+    font-size: small;
+    color: rgb(133, 131, 131);
+}
+.champ_7 > .chul1 > a {
+    color: #000;
+    font-weight: bolder;
+}
+.champ_8 > .chul3 > a {
+    color: #000;
+    font-weight: bolder;
+}
+.champ_7 > .chul2 > a {
+    font-size: small;
+}
+.champyoun7  th > a {
+    text-decoration: none;
+    color: #000;
+    font-size: small;
+}
+.champyoun7 {
+    width: 810px;
+    height: 50px;
+    margin-left: 24px;
+    border : 1px solid rgb(221, 220, 220);
+    border-collapse : collapse;
+    border-spacing: 10px;
+    table-layout: fixed;
+}
+.champyoun7  th:hover {
+    background-color: rgb(147, 147, 241);
+}
+.champyoun7  th > a:hover {
+    color: white;
+}
+.champyoun8 ul li{
+    list-style: none;
+    padding: 5px;
+    display: flex;
+    font-size: small;
+}
+.champyoun8 ul {
+    padding-left: 20px;
+
+}
+.champyoun8 ul li img {
+    width: 17%;
+    padding-right: 15px;
+}
+.champyoun8 ul li .info {
+    display: flex;
+    flex-direction: column;
+}
+.title1, .title5, .title9 {
+    color: coral;
+    margin-bottom: 3px;
+}
+.title2, .title6, .title10 {
+    font-weight: bolder;
+}
+.title4, .title8, .title12 {
+    color: rgb(167, 164, 164);
+    padding-top: 3px;
+}
+p{
+    color: gray;
+}
+
+a, a:link, a:visited, a:hover{
+    color: gray;
+    text-decoration: none;
+}
+.login > .top, .love1, .bottom, li, footer, .love, main{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font: inherit;
+    vertical-align: baseline;
+    list-style-type: none;
+    border-style: unset;
+}
+
+.login {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #dae1e6;
+    width: 350px;
+    height: auto;
+    margin: 10px;
+    font-size: small;
+    padding: 7px 25px;
+    background-color: #f7f9fa;
+    position: absolute;
+    right: 20px;
+    top: 225px;
+}
+
+
+main {
+    width: 100%;
+    text-align: center;
+    margin: 6PX 0;
+    padding: 10px 0;
+    background-color: #19ce60;
+    border: 1px solid #15c654;
+    border-radius: 2px;
+    font-weight: bolder;
+}
+
+main a, main a:link, main a:visited, main a:hover{
+    color: white;
+    font-size: 16px;
+}
+
+main a::before{
+    content: url("./images/title.png");
+    vertical-align: middle;
+    margin-right: 10px;
+}
+
+.bottom{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 10px;
+}
+
+footer .id::before{
+    display: inline-block;
+    content: "";
+    background-image: url("./images/lock.png");
+    background-size: 12px 16px;
+    width: 12px;
+    height: 16px;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+
+footer .pw::before{
+    display: inline-block;
+    content: "";
+    width: 5px;
+    height: 5px;
+    background-color: gray;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 50%;
+    vertical-align: middle;
+}
+
+footer .signup::before{
+    display: inline-block;
+    content: "";
+    background-image: url("./images/user.png");
+    background-size: 16px 16px;
+    width: 16px;
+    height: 16px;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+.id {
+    margin-left: -22px;
+}
+.champyoun9 {
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid #dae1e6;
+    width: 350px;
+    height: auto;
+    position: absolute;
+    right: 30px;
+    top: 394px;
+    padding: 14px;
+}
+.covid > a {
+    font-weight: bolder;
+    font-size: small;
+    color: #000;
+}
+.covid1 > a {
+    font-size: larger;
+    padding-right: 10px;
+}
+.champyoun10 {
+    position: absolute;
+    right: 30px;
+    top: 460px;
+}
+.champyoun10 > a > img {
+    width: 349px;
+}
+.champyoun11 {
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    right: 30px;
+    top: 660px;
+}
+.ho {
+    display: flex;
+    align-items: center;
+    padding-left: 0; 
+    font-size: small;
+    font-weight: bolder;
+}
+.ho_1 {
+    display: flex;
+    align-items: center;
+    padding-left:122px;
+    font-size: small;
+    font-weight: bolder;
+}
+.champyoun11 > ul > li > img {
+    width: 32px;
+    height: 35px;
+}
+.champyoun11 > .ho_1 > li > a {
+    padding: 5px;
+    color: #000;
+}
+.champyoun11 > .ho_1 > .ho4 > a {
+    color: #03cf5d;
+}
+.champyoun12 {
+    position: absolute;
+    right: 30px;
+    top: 720px;
+    border: 1px solid #dae1e6;
+    background-color: #f1f5f8;
+}
+.champyoun12 > .ho_2 {
+    display: flex;
+    margin: 2px 0 0 0;
+    padding: 7px 3px 3px 5px;
+}
+.champyoun12 > .ho_3 {
+    display: flex;
+    margin: 0;
+    padding: 3px 3px 10px 5px;
+}
+.champyoun12 > .ho_2 > li > a {
+    font-size:small;
+    color: #000;
+    padding: 0 9px;
+}
+.champyoun12 > .ho_3 > li > a {
+    font-size:small;
+    color: #000;
+    padding: 0 9px;
+}
+.champyoun12 > ul > .hoo2, .hoo4, .hoo8, .hoo10 {
+    font-weight: bolder;
+}
+.champyoun13 {
+    display: flex;
+    position: absolute;
+    right: 30px;
+    top: 820px;
+}
+.ho_4 {
+    position: absolute;
+    right: 30px;
+    top: 800px;
+    font-size: small;
+}
+.champyoun13 > div > ul > li > a > img {
+    width: 50%;
+}
+.champyoun13 > .ho_5{
+    margin-right: -130px;
+    font-size: small;
+}
+.champyoun13 > .ho_6{
+    margin-right: -130px;
+    font-size: small;
+}
+.champyoun13 > .ho_7{
+    margin-right: -110px;
+    font-size: small;
+}
